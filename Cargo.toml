@@ -1,0 +1,12 @@
+[workspace]
+members = ["programs/bh_vault", "programs/cpi_probe", "programs/pyth_mock"]
+resolver = "2"
+
+# Small binary: devnet SOL is scarce and program rent is paid per byte.
+[profile.release]
+overflow-checks = true
+lto = "fat"
+codegen-units = 1
+opt-level = "z"
+strip = true
+panic = "abort"

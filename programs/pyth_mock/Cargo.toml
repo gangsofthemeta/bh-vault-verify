@@ -1,0 +1,14 @@
+[package]
+name = "pyth_mock"
+version = "0.0.1"
+description = "TEST ONLY, local validator only: loaded at the Pyth receiver address so tests can write price accounts"
+edition = "2021"
+
+[lib]
+crate-type = ["cdylib", "lib"]
+
+[dependencies]
+anchor-lang = "=0.32.1"
+
+[lints.rust]
+unexpected_cfgs = { level = "allow" }
