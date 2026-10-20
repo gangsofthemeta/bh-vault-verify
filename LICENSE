@@ -1,0 +1,28 @@
+bh_vault — Source Available for Verification Only
+
+Copyright (c) 2026 GOTM Labz. All rights reserved.
+
+This repository contains the source code of the on-chain program bh_vault ("the Software"), published solely so that
+anyone can rebuild it and confirm that a deployed program matches this source.
+
+You may, without charge:
+  1. read the Software;
+  2. download, copy and compile it on your own systems, unmodified, for the sole purpose of verifying that a program
+     deployed on a Solana network was built from it;
+  3. publish the results of that verification (for example hashes and tool output), and quote short excerpts of the
+     Software for the purpose of security review or reporting a vulnerability.
+
+You may not, without prior written permission from GOTM Labz:
+  - deploy the Software, or any work derived from it, to any blockchain network;
+  - use the Software, in whole or in part, in any other product or service, commercial or not;
+  - modify, distribute, sublicense or sell the Software or derived works;
+  - use the names "Bloodhound", "GOTM Labz" or related marks.
+
+No licence to any patent, trademark or other right is granted except as stated above.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE
+WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR
+COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY ARISING FROM, OUT OF OR IN CONNECTION WITH THE
+SOFTWARE OR ITS USE. Verification of the source does not constitute an audit or an endorsement of the deployed program.
+
+Security issues: report privately to support@gotmlabz.io.
